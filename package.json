@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv-safe": "^6.1.0",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0"
   }
 }

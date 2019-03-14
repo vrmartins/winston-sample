@@ -42,7 +42,11 @@ if (process.env.NODE_ENV !== 'production') {
   }));
 }
 
-logger.error('esse é um error()')
-logger.log('info','esse é um log(info)')
-logger.info('esse é um info()')
-logger.debug('esse é um debug()')
+for (let i=0; i<=1000; i++) {
+  setInterval(() => {
+    logger.error('esse é um error()')
+    logger.log('info','esse é um log(info)')
+    logger.info('esse é um info()')
+    logger.debug('esse é um debug()')
+  }, 2000)
+}
