@@ -7,7 +7,7 @@ Fire up your terminal
 npm install
 ```
 
-Start dev server by typing
+Start server by typing
 ```sh
 node index.js
 ```
